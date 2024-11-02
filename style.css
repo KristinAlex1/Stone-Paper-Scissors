@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+h1{
+    height: 100px;
+    width: 100%;
+    background-color: #2B2C28;
+    color : #FFFAFB;
+    text-align: center;
+    
+
+}
+
+.elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rock{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+
+
+
+}
+
+#paper{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+
+
+}
+#scissors{
+
+    height: 70px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: purple;
+
+
+}
