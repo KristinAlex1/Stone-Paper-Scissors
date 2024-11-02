@@ -3,23 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel = "stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    
     <h1> Rock Paper Scissors</h1>
+   
+    
     <div class = "elements">
+
         <button id = "rock">
-            Rock
+            <div class="rock-img">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </div>
+            <p class = "rock-text"> Rock</p>
         </button>
+
         <button id = "paper">
-            Paper
+            <div class="paper-img">
+            
+                <i class="fa-solid fa-hand"></i>
+            </div>
+            <p class = "paper-text"> Paper</p>
         </button>
         <button id = "scissors">
-            Scissors
+            <div class="scissors-img">
+            
+                <i class="fa-solid fa-hand-scissors"></i>
+            </div>
+            <p class = "paper-text"> Scissors</p>
         </button>
         
     </div>
+    <div class= "players">
+        
+            <p class = "user"> User</p>
+            <p class = "cpu" >CPU</p>
+    </div>
+    <div class="player-score">
+            <p class = "user-score"> 0</p>
+            <p class = "cpu-score"> 0 </p> 
+    </div>
+       
+    <div class = "game-text">
+        
+    </div>
+    <button id = "new-game"> New Game</button>
+    
+    
     
 
     <script src = "app.js"></script>

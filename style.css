@@ -2,14 +2,27 @@
     padding: 0;
     margin:0;
 }
+.head{
+    background-color: black;
+
+}
 
 h1{
-    height: 100px;
+    height: 70px;
     width: 100%;
-    background-color: #2B2C28;
+    background-color: black;
     color : #FFFAFB;
-    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
     
+    
+    
+
+}
+body{
+background-color: #2B2C28;
 
 }
 
@@ -21,30 +34,122 @@ h1{
 
 #rock{
 
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    background-color: red;
+    background-color: #7DE2D1;
+    margin-top: 30px;
+    border: 5px black solid;
+    margin-right: 10px ;
 
 
 
 }
 
-#paper{
-
+.rock-img{
     height: 100px;
     width: 100px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 80px;
+    margin-left: 15px;
+}
+
+#paper{
+
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: #7DE2D1;
+    margin-top: 30px;
+    border: 5px black solid;
+
+
+}
+
+.paper-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-size: 80px;
+
+    margin-left: 15px;
 
 
 }
 #scissors{
 
-    height: 70px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    background-color: purple;
+    background-color: #7DE2D1;
+    margin-top: 30px;
+    border: 5px black solid;
+    margin-left: 10px ;
 
+
+}
+
+.scissors-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-size: 80px;
+
+    margin-left: 15px;
+
+}
+.score{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.players{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: larger;
+
+}
+.user{
+    font-size: 40px;
+    margin-right: 20px;
+    
+}
+
+.cpu{
+    font-size: 40px;
+    margin-left: 20px ;
+    
+}
+
+.player-score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-score{
+    margin-right: 40px;
+    font-size: 40px;
+
+}
+
+.cpu-score{
+    margin-left: 40px ;
+    font-size: 40px;
 
 }
