@@ -153,3 +153,38 @@ background-color: #2B2C28;
     font-size: 40px;
 
 }
+
+.game-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+      
+
+}
+
+.game-outcome-text{
+    height: 50px;
+    width: 500px;
+    background-color: #7DE2D1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.new-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#new-game-btn{
+    height: 40px;
+    width: 120px;
+    background-color: #7DE2D1;
+}
