@@ -165,8 +165,8 @@ background-color: #2B2C28;
 }
 
 .game-outcome-text{
-    height: 50px;
-    width: 500px;
+    height: 90px;
+    width: 700px;
     background-color: #7DE2D1;
     text-align: center;
     display: flex;
